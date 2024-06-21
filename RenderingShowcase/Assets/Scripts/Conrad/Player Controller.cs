@@ -12,13 +12,13 @@ public class PlayerController : MonoBehaviour
     private InputManager inputManager;
 
     [RangeAttribute(0.0f, 10.0f)]
-    private float playerSpeed = 2.0f;
+    public float playerSpeed = 2.0f;
 
     [RangeAttribute(0.0f, 10.0f)]
-    private float jumpHeight = 1.0f;
+    public float jumpHeight = 1.0f;
 
     [RangeAttribute(-20.0f, 5.0f)]
-    private float gravityValue = -9.81f;
+    public float gravityValue = -9.81f;
 
     private void Start()
     {
