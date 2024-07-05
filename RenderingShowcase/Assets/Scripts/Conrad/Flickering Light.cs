@@ -48,12 +48,12 @@ public class FlickeringLight : MonoBehaviour
             if (bulb.GetComponentInChildren<Light>().enabled)
             {
                 if (transform.Find("Bulb").GetComponent<MeshRenderer>() != null)
-                    transform.Find("Bulb").GetComponent<MeshRenderer>().material = onMaterial;
+                    bulb.GetComponent<MeshRenderer>().material = onMaterial;
             }
             else
             {
                 if (transform.Find("Bulb").GetComponent<MeshRenderer>() != null)
-                    transform.Find("Bulb").GetComponent<MeshRenderer>().material = offMaterial;
+                    bulb.GetComponent<MeshRenderer>().material = offMaterial;
             }
         }
     }

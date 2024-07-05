@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1760097746826528502}
   - component: {fileID: 8315807953432677477}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,14 +42,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.9339623, g: 0.7765808, b: 0.4801976, a: 1}
-  m_Intensity: 3.6
-  m_Range: 50
-  m_SpotAngle: 41.06
+  m_Color: {r: 0.990566, g: 0.885838, b: 0.6868548, a: 1}
+  m_Intensity: 0
+  m_Range: 20.77
+  m_SpotAngle: 37.15
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -77,7 +77,7 @@ Light:
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -85,7 +85,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 59.25
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -102,6 +102,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3498991941367140583}
+  - component: {fileID: 1230465821261319154}
+  - component: {fileID: 1952712635852655421}
   - component: {fileID: 5457813405729765075}
   - component: {fileID: 8502525393421540412}
   - component: {fileID: 3731175411291857217}
@@ -121,13 +123,44 @@ Transform:
   m_GameObject: {fileID: 2121739874634207187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.71, z: 0}
+  m_LocalPosition: {x: 0.74, y: 5.2697144, z: 5.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1760097746826528502}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1230465821261319154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121739874634207187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8775f985365937342b74635cac7708c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOn: 1
+  flickers: 0
+  flickerMinTime: 1
+  flickerMaxTime: 10
+  onMaterial: {fileID: 0}
+  offMaterial: {fileID: 0}
+--- !u!114 &1952712635852655421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121739874634207187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d667fdde428d4745986df5cf0dbe52a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
 --- !u!20 &5457813405729765075
 Camera:
   m_ObjectHideFlags: 0
