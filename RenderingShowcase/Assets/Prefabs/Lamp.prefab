@@ -150,14 +150,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.9924528, g: 0.8922414, b: 0.5524029, a: 1}
-  m_Intensity: 1.6
+  m_Color: {r: 0.98490566, g: 0.7704448, b: 0.16910642, a: 1}
+  m_Intensity: 2
   m_Range: 10
-  m_SpotAngle: 100
+  m_SpotAngle: 97.4
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -190,7 +190,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -230,14 +230,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8057963391003511900}
   serializedVersion: 2
-  m_LocalRotation: {x: 7.850463e-18, y: -0.7071068, z: 7.850463e-18, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 42.520008, y: -1.2795997, z: -46.16895}
-  m_LocalScale: {x: 1.8133249, y: 1.799, z: 1.7989995}
+  m_LocalScale: {x: 1.7990001, y: 1.799, z: 1.799}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6016920066304303995}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &4548040824571651995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2668,7 +2668,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2236
+  m_VersionIndex: 2239
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
