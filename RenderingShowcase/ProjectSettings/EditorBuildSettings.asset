@@ -4,5 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Development/Lance's Workspace.unity
+    guid: 119db7650e650ab4e98e9e1f563ca295
+  - enabled: 1
+    path: Assets/Scenes/Development/Conrad's Workspace.unity
+    guid: c74e70aef46a1c847a7d4153f8b483eb
+  - enabled: 1
+    path: Assets/Scenes/Development/Nico's Workspace.unity
+    guid: a79ca8ac8af887945a69e7bab5d5a012
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

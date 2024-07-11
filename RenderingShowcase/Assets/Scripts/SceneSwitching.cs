@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitching : MonoBehaviour
 {
-    [SerializeField] private string ConradScene_Tag;
-    [SerializeField] private string LanceScene_Tag;
-    [SerializeField] private string NicoScene_Tag;
+
     [SerializeField] private string CurrentScene_Tag;
 
     private void loadScene()
     {
+        
+        /*
         if (CurrentScene_Tag == ConradScene_Tag)
         {
             SceneManager.LoadScene("Conrad's Workspace");
@@ -24,14 +24,15 @@ public class SceneSwitching : MonoBehaviour
         else if (CurrentScene_Tag == NicoScene_Tag)
         {
             SceneManager.LoadScene("Nico's Workspace");
-        }
+        }*/
     }
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.name.Contains("Player"))
+        if (other.gameObject.name.Contains("Player"))
         {
-            this.loadScene();
+            SceneManager.LoadScene(CurrentScene_Tag);
         }
     }
 }
