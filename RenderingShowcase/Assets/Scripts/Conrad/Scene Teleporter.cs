@@ -16,6 +16,10 @@ public class SceneTeleporter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
+        if (other.tag != "Player")
+            return;
+        
         Debug.Log("Switching to " + targetScene + "...");
         if (targetScene == null || targetScene.Equals(""))
             Debug.LogWarning(name + "'s Target Scene not set.");

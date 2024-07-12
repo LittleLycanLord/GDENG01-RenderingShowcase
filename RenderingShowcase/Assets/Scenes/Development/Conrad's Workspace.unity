@@ -7362,7 +7362,7 @@ GameObject:
   - component: {fileID: 8914929861473431875}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8109,63 +8109,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &2779376420324358770
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -21.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 82.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 482720749727877496, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2566623185075541716, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
-      propertyPath: m_Name
-      value: Scene Teleporter
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
 --- !u!114 &3246911531665986944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8474,6 +8417,5 @@ SceneRoots:
   - {fileID: 1946486645011281847}
   - {fileID: 837508576}
   - {fileID: 1987652678}
-  - {fileID: 2779376420324358770}
   - {fileID: 29150194}
   - {fileID: 4052217818365093861}
