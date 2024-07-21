@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 982390642338370371, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
+      propertyPath: targetScene
+      value: Lance's Workspace
+      objectReference: {fileID: 0}
     - target: {fileID: 2566623185075541716, guid: 1ca8fca2b103acf4c95583163d0d7680, type: 3}
       propertyPath: m_Name
       value: Scene Teleporter (1)
