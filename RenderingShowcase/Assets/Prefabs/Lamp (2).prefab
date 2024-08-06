@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3959238964626630154}
   - component: {fileID: 2599287682921065947}
   - component: {fileID: 7425498848105993665}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Cylinder (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1847,7 +1847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4536152982488364892}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1888,7 +1888,7 @@ GameObject:
   - component: {fileID: 4881527084397107725}
   - component: {fileID: 7000641254545076622}
   - component: {fileID: 9172386769691775165}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Lamp Shade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4467,7 +4467,7 @@ GameObject:
   - component: {fileID: 6352866427739977030}
   - component: {fileID: 7880456397898256624}
   - component: {fileID: 9169984751633765927}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6305,7 +6305,7 @@ GameObject:
   - component: {fileID: 7109691883598521834}
   - component: {fileID: 4442290869617274038}
   - component: {fileID: 5727148105938954155}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Butt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8882,7 +8882,7 @@ GameObject:
   - component: {fileID: 8196965562997109808}
   - component: {fileID: 9122933940387429257}
   - component: {fileID: 2330840909674255290}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10716,7 +10716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5291658885958524949}
   - component: {fileID: 6906850867422458090}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10813,7 +10813,7 @@ GameObject:
   - component: {fileID: 7464013009781033563}
   - component: {fileID: 6301840753986663555}
   - component: {fileID: 4586975099469743728}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13385,7 +13385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4806303766347514386}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Light Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13425,7 +13425,7 @@ GameObject:
   - component: {fileID: 4681220765722636217}
   - component: {fileID: 3549841806353437193}
   - component: {fileID: 6648275343988866725}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15263,7 +15263,7 @@ GameObject:
   - component: {fileID: 1733434328229165007}
   - component: {fileID: 3739909082813839535}
   - component: {fileID: 2211222890179114197}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17844,7 +17844,7 @@ GameObject:
   - component: {fileID: 1747522517523819604}
   - component: {fileID: 1650798112485101637}
   - component: {fileID: 704588895285415166}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Body (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19682,7 +19682,7 @@ GameObject:
   - component: {fileID: 1646421999290517294}
   - component: {fileID: 5115108247216186088}
   - component: {fileID: 5969775079807400780}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Body (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21515,7 +21515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4067856680313297113}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Lamp (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21552,7 +21552,7 @@ GameObject:
   - component: {fileID: 2187435150730874100}
   - component: {fileID: 2840202960802681964}
   - component: {fileID: 4364764240549763449}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Body (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23390,7 +23390,7 @@ GameObject:
   - component: {fileID: 7536783722214941725}
   - component: {fileID: 8116162724220259790}
   - component: {fileID: 4331461728278240108}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Light Bulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57487,7 +57487,7 @@ GameObject:
   - component: {fileID: 835197362210704636}
   - component: {fileID: 1540730639868258470}
   - component: {fileID: 2446016342983706697}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Cylinder (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
